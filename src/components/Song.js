@@ -12,7 +12,9 @@ const Song = ({ currentSong }) => {
 };
 
 const SongContainer = styled.div`
-	min-height: 60vh;
+	margin-top: 10vh;
+	min-height: 50vh;
+	max-height: 60vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -23,7 +25,7 @@ const Img = styled.img`
 	width: 20%;
 	border-radius: 50%;
 	@media screen and (max-width: 768px) {
-		width: 60%;
+		width: 50%;
 	}
 `;
 

@@ -2,7 +2,7 @@ import React from "react";
 import LibrarySong from "./LibrarySong";
 import styled from "styled-components";
 
-const Library = ({ songs, setCurrentSong, audioRef, isPlaying, setSongs, libraryStatus }) => {
+const Library = ({ songs, currentSong, setCurrentSong, audioRef, isPlaying, setSongs, libraryStatus }) => {
 	return (
 		<LibraryContainer libraryStatus={libraryStatus}>
 			<H1>Library</H1>
@@ -24,6 +24,7 @@ const Library = ({ songs, setCurrentSong, audioRef, isPlaying, setSongs, library
 };
 const LibraryContainer = styled.div`
 	position: fixed;
+	z-index: 9;
 	top: 0;
 	left: 0;
 	width: 20rem;
@@ -50,6 +51,7 @@ const LibraryContainer = styled.div`
 	}
 	@media screen and (max-width: 768px) {
 		width: 100%;
+		z-index: 9;
 	}
 `;
 

@@ -7,7 +7,7 @@ import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
-
+import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 
@@ -34,7 +34,24 @@ const App = () => {
 
 	const songEndHandler = async () => {
 		let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
-		await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+		let nextSong = songs[(currentIndex + 1) % songs.length];
+		await setCurrentSong(nextSong);
+
+		const newSongs = songs.map((song) => {
+			if (song.id === nextSong.id) {
+				return {
+					...song,
+					active: true,
+				};
+			} else {
+				return {
+					...song,
+					active: false,
+				};
+			}
+		});
+		setSongs(newSongs);
+
 		if (isPlaying) {
 			audioRef.current.play();
 		}
@@ -63,6 +80,7 @@ const App = () => {
 				setSongs={setSongs}
 				libraryStatus={libraryStatus}
 			/>
+			<Credit />
 			<audio
 				onLoadedMetadata={updateTimeHandler}
 				onTimeUpdate={updateTimeHandler}
@@ -76,7 +94,10 @@ const App = () => {
 
 const AppContainer = styled.div`
 	transition: all 0.5s ease;
-	margin-left: ${(p) => (p.libraryStatus ? "30%" : "0")};
+	margin-left: ${(p) => (p.libraryStatus ? "20rem" : "0")};
+	@media screen and (max-width: 768px) {
+		margin-left: 0;
+	}
 `;
 
 export default App;
