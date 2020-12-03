@@ -4,6 +4,8 @@ This project was made by following Dev Ed's react course, with some of my person
 
 ## Test it out yourself!
 
+https://wilson-react-music-player.vercel.app/
+
 Clone the repository and start testing out the application yourself!
 
 In the project directory, you can run:
