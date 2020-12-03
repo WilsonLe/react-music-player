@@ -3,9 +3,12 @@ import styled from "styled-components";
 const Credit = () => {
 	return (
 		<CreditContainer>
-			Made by{" "}
 			<Link href="https://www.wilsonle.me" target="_blank">
-				Wilson
+				Made by Wilson
+			</Link>
+			<br></br>
+			<Link href="https://github.com/WilsonLe/react-music-player" target="_blank">
+				Github repository
 			</Link>
 		</CreditContainer>
 	);
@@ -14,6 +17,10 @@ const Credit = () => {
 const CreditContainer = styled.div`
 	user-select: none;
 	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
 	z-index: 12;
 	bottom: 5px;
 	right: 5px;
