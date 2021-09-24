@@ -28,5 +28,5 @@ If you're ready to deploy the application to the internet, use:
 ```
 yarn build
 ```
-This will build the app for production to the "build" foler. The Built version will be optimized for best performance.
+This will build the app for production to the "build" folder. The Built version will be optimized for best performance.
 
