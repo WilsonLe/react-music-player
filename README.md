@@ -1,5 +1,7 @@
 # A clean, minimalistic react music player web application.
 
+This app is made by Wilson and modified by an2ta for Tats library songs
+
 This project was made by following Dev Ed's react course, with some of my personal tweaks. In the course, he used scss modules to style, while I used styled components. I choose to use styled components because of the advantage of being able to style based on props, which is personally, is much more convenient than add class and scss modules.
 
 ![alt text](https://i.ibb.co/VtT4JPc/image.png "Vibes music web application")
