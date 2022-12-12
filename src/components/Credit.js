@@ -16,6 +16,11 @@ const Credit = () => {
       <Link href="https://github.com/anantadhia/reactplayer" target="_blank">
         Tatsu repository by an2ta
       </Link>
+      <p>
+        {" "}
+        This is a nonprofit project for personal and hobby. All rights is
+        reserved to Tatsuro Yamashita. Please buy their original source.
+      </p>
     </CreditContainer>
   );
 };
