@@ -45,6 +45,28 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Ride  on Time",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+      artist: "Aiguille",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/ride%20on%20time.mp4",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Fragile",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
+      artist: "Aiguille",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Tatsuro%20Yamashita%20%20Fragile.mp3.webm",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
 
     //ADD MORE HERE
   ];
