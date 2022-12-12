@@ -1,11 +1,11 @@
 import { v4 as uuidv4 } from "uuid";
+
 function chillHop() {
   return [
     {
       name: "Love Space",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/0255e8b8c74c90d4a27c594b3452b2daafae608d-1024x1024.jpg",
-      artist: "Aso, Middle School, Aviino",
+      cover: "/Spacy.jpg",
+      artist: "Spacy",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Love%20Space.mp3",
       color: ["#205950", "#2ab3bf"],
@@ -14,9 +14,8 @@ function chillHop() {
     },
     {
       name: "Blow",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
+      cover: "/Rarities.jpg",
+      artist: "Rarities",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Blow.mp3",
       color: ["#EF8EA9", "#ab417f"],
@@ -36,9 +35,8 @@ function chillHop() {
     },
     {
       name: "Neo Tokyo Rhapsody",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
+      cover: "/Boku no Naka no Shounen.jpg",
+      artist: "Boku no Naka no Shounen",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Neo%20Tokyo%20Rhapshody.mp3",
       color: ["#EF8EA9", "#ab417f"],
@@ -47,9 +45,8 @@ function chillHop() {
     },
     {
       name: "Ride  on Time",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
+      cover: "/Rideontime.jpg",
+      artist: "Ride  on Timee",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/ride%20on%20time.mp4",
       color: ["#EF8EA9", "#ab417f"],
@@ -58,11 +55,50 @@ function chillHop() {
     },
     {
       name: "Fragile",
-      cover:
-        "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
-      artist: "Aiguille",
+      cover: "/Cozy.jpg",
+      artist: "Cozy",
       audio:
         "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/Tatsuro%20Yamashita%20%20Fragile.mp3.webm",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Music Book",
+      cover: "/ForY.jpg",
+      artist: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/02.%20Music%20Book.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Futari",
+      cover: "/ForY.jpg",
+      artist: "For You",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/04.%20Futari.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Amapola",
+      cover: "/OTSC2.jpg",
+      artist: "On The Street Corner",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/01.%20Amapola.mp3",
+      color: ["#EF8EA9", "#ab417f"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Circus Town",
+      cover: "/CircusTown.jpg",
+      artist: "On The Street Corner",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/01.%20Circus%20Town.mp3",
       color: ["#EF8EA9", "#ab417f"],
       id: uuidv4(),
       active: false,
