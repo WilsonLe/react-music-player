@@ -13,6 +13,16 @@ function chillHop() {
       active: true,
     },
     {
+      name: "Merry Go Round",
+      cover: "/melo.jpg",
+      artist: "Melodies",
+      audio:
+        "https://github.com/anantadhia/reactplayer/raw/production/src/Audio/6.%20%E3%83%A1%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%B4%E3%83%BC%E3%83%BB%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89.mp3",
+      color: ["#205950", "#2ab3bf"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
       name: "Blow",
       cover: "/Rarities.jpg",
       artist: "Rarities",
