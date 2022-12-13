@@ -14,8 +14,9 @@ import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 
-ReactGA.initialize("G-1DHM72DVQV");
+ReactGA.initialize("UA-223844105-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
+
 const App = () => {
   // Ref
   const audioRef = useRef(null);
