@@ -4,8 +4,6 @@ import "./App.css";
 
 //analytic
 import ReactGA from "react-ga";
-ReactGA.initialize("G-1DHM72DVQV");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 // Import components
 import Player from "./components/Player";
@@ -16,6 +14,8 @@ import Credit from "./components/Credit";
 // Import data
 import data from "./data";
 
+ReactGA.initialize("G-1DHM72DVQV");
+ReactGA.pageview(window.location.pathname + window.location.search);
 const App = () => {
   // Ref
   const audioRef = useRef(null);
