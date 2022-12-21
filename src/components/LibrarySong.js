@@ -46,7 +46,7 @@ const LibrarySong = ({
     </LibrarySongContainer>
   );
 };
-const LibrarySongContainer = styled.div`
+const LibrarySongContainer = styled.li`
   padding: 0 2rem 0 2rem;
   height: 100px;
   width: 100%;
